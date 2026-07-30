@@ -33,7 +33,6 @@ def login(data: LoginRequest):
 
     token = create_access_token(payload)
 
-    # Debug (remove later)
     print("=" * 50)
     print("LOGIN SUCCESS")
     print("Payload:", payload)
